@@ -42,7 +42,7 @@ bot.on('text', (ctx) => {
 
 
 
-bot.launch().then(console.log('Bot started'));
+bot.launch().then(console.log('Bot Started'));
 
 // Enable graceful stop
 process.once('SIGINT', () => bot.stop('SIGINT'));
