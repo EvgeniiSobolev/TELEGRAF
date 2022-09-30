@@ -1,0 +1,21 @@
+{
+  "name": "telegraf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.23.2",
+    "telegraf": "^4.9.2"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
